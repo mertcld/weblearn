@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn3.iconfinder.com/data/icons/ringtone-music-instruments/512/letter-m-key-keyboard-3-512.png" rel="shortcut icon">
+	<link rel="icon" href="https://cdn3.iconfinder.com/data/icons/ringtone-music-instruments/512/letter-m-key-keyboard-3-512.png">
+	<meta name="description" content="bu bir internet sitesi açıklamasıdır.">
+	<meta name="keywords" content="anahtarkelimeler,internet,html,teknoloji">
+	<meta name="author" content="Mert Bulut">
+	<meta name="viewport" content="width=device-width, initial-scale_1.0"> <!cok önmeli !>
+	<meta http-equiv="refresh" content="10000"> <! Sayfa 10000 saniyede bir yenilenir !>
+	
+
+	<title>mertbulut.web.tr</title>
+
+	<script>
+		function olay(durum){
+			alert(durum);
+		}
+	</script>
+
+
+	<style>
+		#pelemanikimligi { color: blue; }
+
+
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="stildosyasi.css">
+
+</head>
+
+
+<body onunload="olay('Sayfa yüklenemedi.')">
+
+<p onclick="olay('Paragrafa  tıklandı')" id="pelemanikimligi" class="belirlibirsinif">Bu bir paragraftır</p>
+<h1 style="color: brown" onclick="olay('büyük başlığa tıklandı')">SELAM</h1>
+<h3 onclick="olay('h3e tıkladınız.')" class="belirlibirsinif"> H3123123123s.</h3>
+<h5 oncopy="olay('Yazıyı kopyaladınız')">EN KÜÇÜK BAŞLIK</h5>
+<a onclick="olay('Sayfama gidiyorsunuz..') " href="https://www.mertbulut.web.tr" target="_blank">Benim sitem.</a>
+<br>
+<img ondblclick="olay('Bir yakışıklıya tıkladınız.')"   src="edit.jpg" width="200px" height="200px">
+
+<ul style="list-style: circle;">
+	<li>Birinci sırasız liste elemanı</li>
+	<li>İkinci sırasız liste elemanı</li>
+</ul>
+<br>
+<ol type="1" start="58">
+	<li>Birinci sıralı liste elemanı</li>
+	<li>İkinci sıralı liste elemanı</li>
+</ol>
+
+<dl>
+	<dt>Merhaba</dt>
+	<dd>==>bir selamlama cümlesidir</dd>
+	<dt>Hi</dt>
+</dl>
+
+<!W3 schools eventlere bak !>
+
+<!FORMLAR!> 
+<hr>
+<form action="https://mertbulut.web.tr" method="POST" enctype="multipart/form-data"> <!POST VE GET METHODU VARDIR !>
+	<label>Kullanıcı adı*</label>
+	<input autofocus name="kullaniciadi" type="text" placeholder="kullanıcı adınızı giriniz." required>
+	<input name="kaynak" type="hidden" value="Chrome ile giriş yapıldı">
+	<br>
+	<label>Şifre </label>
+	<input name="sifre" type="password" placeholder="şifre giriniz.">
+	<br>
+	<label>profil resmi</label>
+	<input type="file" name="profilresmi">
+	<br>
+	<label>Telefon numarası</label>
+	<input name="telno" type="tel" value="+90" > <br>
+	<input type="checkbox" name=""> Kullanıcı sözleşmesini kabul ediyorum. <br>
+	<br>
+
+	<input list="datalistesi" >
+
+	<datalist id="datalistesi">
+		<option value="Mert">
+		<option value="Selami">
+		<option value="Haluk">	
+	</datalist>
+
+
+	<br>
+	<select>
+		<option value="deger1">görülen değer1 </option>
+		<option value="deger2">görülen değer2</option>	
+		<option value="deger3">görülen değer3</option>
+	</select>
+	<br>
+	<input type="submit" value="Giriş yap" > 
+
+
+</form>
+<br><br>
+<h1>My <span style="color:red">Important</span> Heading</h1>
+
+<br><br>
+<iframe src="http://mertbulut.web.tr" width="50%" height="50%" style="border:2px solid red;"></iframe>
+</body>
+</html>
