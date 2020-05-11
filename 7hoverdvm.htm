@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.para1{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+/*.para1::first-line{
+    color: red;
+}
+.para1::first-letter{
+    color: blue;
+    font-size: 50px;
+}*/
+.para1::after{
+    content: url(/images//edit.jpg);
+}
+.para1::before{
+    content: "paragraf öncesi ";
+}
+
+</style>
+</head>
+<body>
+  <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam tenetur temporibus voluptatem corporis fugiat, labore porro consequatur similique ex distinctio aliquam cum corrupti ratione! Rerum tempore, deserunt minima sequi itaque quidem iusto facilis deleniti perspiciatis placeat nam quo nemo natus architecto ea eaque. Quisquam, asperiores non. Delectus, esse? Sit iste quia consequuntur minus nesciunt voluptate rem nisi perspiciatis consectetur maxime veniam soluta dolorum consequatur dolorem ipsum, alias laboriosam. Quas facilis mollitia dolore ut consequatur voluptates qui, eveniet eum eaque! Beatae ex odit facere perspiciatis quas repellendus ipsa sunt, minus voluptatibus, nulla, vel tempore natus id dolorem accusamus adipisci fugiat!</p>  
+</body>
+</html>

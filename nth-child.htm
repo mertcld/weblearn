@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+p{
+    font-size: 1.5em;
+}
+/*
+p:nth-child(3){
+    color: blue;
+
+}
+p:nth-child(1){
+    color: aqua;
+    border: 3px solid red;  
+}
+p:first-child{
+    color: red;
+}
+p:last-child{
+    color: blueviolet;
+}*/
+/*p:nth-child(even){/*çift
+    color: red;
+}
+p:nth-child(odd){ /*tek
+    color: blue;
+}*/
+/*a.n + b  (n=0,b=0) default*/ 
+/*----------------------------------*/
+
+
+ul{
+    font-size: 1.5em;
+    list-style-type: none;
+}
+/*n=0 b=0 , 2 olur 4 olur 6 olur 8 olur 10 olur*/
+ul li:nth-child(2n){
+    color: red;
+}
+/*2n+1 de ise 1,3,5,7,9 seçicek*/
+ul li:nth-child(2n+1){
+    color: blue;
+}
+/*4 den itibaren her çocuk*/
+ul li:nth-child(n+4){
+   background-color: black;
+}
+
+
+</style>
+<body>
+
+<ul>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+</ul>
+
+
+
+
+
+
+
+
+    <!--<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, velit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nihil?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quibusdam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, nam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laborum.</p>-->
+    
+</body>
+</html>
