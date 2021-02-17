@@ -1,2 +1,2 @@
 # weblearn
-This is how ı learn html css js.
+This is how i learn html, css, js.
